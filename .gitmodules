@@ -2,3 +2,11 @@
 	path = operating_system
 	url = ../windows-operating_system
 	branch = main
+[submodule "port"]
+	path = port
+	url = ../windows-graphics3d-port
+	branch = main
+[submodule "source"]
+	path = source
+	url = ../graphics3d-labs-source
+	branch = main
