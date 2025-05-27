@@ -96,6 +96,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_opengl", "..\source\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_vulkan", "..\source\app-cube\draw2d_vulkan\draw2d_vulkan.vcxproj", "{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vkvg", "..\port\graphics3d\vkvg\vkvg.vcxproj", "{F134E324-B566-42D3-B341-0BA7DB0D6234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		cover|ARM = cover|ARM
@@ -1402,6 +1404,36 @@ Global
 		{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}.StaticRelease|Win32.Build.0 = StaticRelease|Win32
 		{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}.StaticRelease|x64.ActiveCfg = StaticRelease|x64
 		{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}.StaticRelease|x64.Build.0 = StaticRelease|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|ARM.ActiveCfg = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|ARM.Build.0 = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|Win32.ActiveCfg = Debug|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|Win32.Build.0 = Debug|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|x64.ActiveCfg = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.cover|x64.Build.0 = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|ARM.ActiveCfg = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|ARM.Build.0 = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|Win32.Build.0 = Debug|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|x64.ActiveCfg = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Debug|x64.Build.0 = Debug|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|ARM.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|ARM.Build.0 = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|Win32.ActiveCfg = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|Win32.Build.0 = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|x64.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.Release|x64.Build.0 = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|ARM.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|ARM.Build.0 = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|Win32.ActiveCfg = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|Win32.Build.0 = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|x64.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticDebug|x64.Build.0 = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|ARM.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|ARM.Build.0 = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|Win32.ActiveCfg = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|Win32.Build.0 = Release|Win32
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|x64.ActiveCfg = Release|x64
+		{F134E324-B566-42D3-B341-0BA7DB0D6234}.StaticRelease|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
