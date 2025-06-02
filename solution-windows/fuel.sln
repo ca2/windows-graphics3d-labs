@@ -56,15 +56,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "folder_zip", "..\source\app
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_app", "..\source\app\app\app_app.vcxproj", "{40F49B85-A888-4A1D-A7F5-7631F14A3D4A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpu_opengl", "..\source\app-cube\gpu_opengl\gpu_opengl.vcxproj", "{B7225CB5-B394-444B-8FFF-02ACD10175CE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpu_opengl", "..\source\app-graphics3d\gpu_opengl\gpu_opengl.vcxproj", "{B7225CB5-B394-444B-8FFF-02ACD10175CE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_simple_shader", "..\source\app-cube\simple_shader\app_cube_simple_shader.vcxproj", "{929E61A5-1A0B-4D43-A1FF-082783D4C71D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_simple_shader", "..\source\app-graphics3d\simple_shader\app_graphics3d_simple_shader.vcxproj", "{929E61A5-1A0B-4D43-A1FF-082783D4C71D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_shader", "..\source\app-cube\shader\app_cube_shader.vcxproj", "{A18176C9-0892-4FF4-9BE4-2A7FE6EA3005}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_shader", "..\source\app-graphics3d\shader\app_graphics3d_shader.vcxproj", "{A18176C9-0892-4FF4-9BE4-2A7FE6EA3005}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regular_expression_pcre2", "..\source\app\regular_expression_pcre2\regular_expression_pcre2.vcxproj", "{DBA80336-2E72-4DCE-8AB3-C362F3B19106}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_shader", "..\source\app-cube\shader\__implement\shared_app_cube_shader.vcxproj", "{11C1FEFC-BBF3-45A4-8799-68F5D50B8FEB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_shader", "..\source\app-graphics3d\shader\__implement\shared_app_graphics3d_shader.vcxproj", "{11C1FEFC-BBF3-45A4-8799-68F5D50B8FEB}"
 	ProjectSection(ProjectDependencies) = postProject
 		{46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D} = {46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D}
 		{B7225CB5-B394-444B-8FFF-02ACD10175CE} = {B7225CB5-B394-444B-8FFF-02ACD10175CE}
@@ -73,7 +73,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_shader", ".
 		{F85061D8-22DC-4A8B-85EA-76D330BE52CC} = {F85061D8-22DC-4A8B-85EA-76D330BE52CC}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_simple_shader", "..\source\app-cube\simple_shader\__implement\shared_app_cube_simple_shader.vcxproj", "{9736CBA2-3A1F-4205-A0B6-583CBD6EA7A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_simple_shader", "..\source\app-graphics3d\simple_shader\__implement\shared_app_graphics3d_simple_shader.vcxproj", "{9736CBA2-3A1F-4205-A0B6-583CBD6EA7A6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D} = {46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D}
 		{9A5FBFB1-76E6-4F7E-933A-328C1EEC95AF} = {9A5FBFB1-76E6-4F7E-933A-328C1EEC95AF}
@@ -90,9 +90,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_simple_shad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "networking_bsd", "..\source\app\networking_bsd\networking_bsd.vcxproj", "{46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_fuel", "..\source\app-cube\fuel\app_cube_fuel.vcxproj", "{5AAFBD19-DAED-40A5-BBD6-2FB07425C874}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_fuel", "..\source\app-graphics3d\fuel\app_graphics3d_fuel.vcxproj", "{5AAFBD19-DAED-40A5-BBD6-2FB07425C874}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel", "..\source\app-cube\fuel\__implement\shared_app_cube_fuel.vcxproj", "{E3A4C3A8-33BD-425F-933F-A8E0E6204E30}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_fuel", "..\source\app-graphics3d\fuel\__implement\shared_app_graphics3d_fuel.vcxproj", "{E3A4C3A8-33BD-425F-933F-A8E0E6204E30}"
 	ProjectSection(ProjectDependencies) = postProject
 		{46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D} = {46D7D9C9-7B52-4DC6-AF84-46A5E3CDC43D}
 		{582D9C3D-77BB-44C9-962B-C4BA36713049} = {582D9C3D-77BB-44C9-962B-C4BA36713049}
@@ -108,7 +108,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel", "..\
 		{F85061D8-22DC-4A8B-85EA-76D330BE52CC} = {F85061D8-22DC-4A8B-85EA-76D330BE52CC}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_opengl", "..\source\app-cube\draw2d_opengl\draw2d_opengl.vcxproj", "{A6371632-E343-445C-88EE-ED786D5EA47F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_opengl", "..\source\app-graphics3d\draw2d_opengl\draw2d_opengl.vcxproj", "{A6371632-E343-445C-88EE-ED786D5EA47F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "innate_ui_win32", "..\operating_system\operating_system-windows\innate_ui_win32\innate_ui_win32.vcxproj", "{31F3D4C6-61F7-4E68-8C48-6DE00A2D7D78}"
 EndProject
@@ -120,30 +120,30 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operating_ambient_windows",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nano2d", "..\source\app\nano2d\nano2d.vcxproj", "{5C621AC9-FF29-484B-83E2-377E051C2CFC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_fuel_memory_opengl", "..\source\app-cube\fuel-memory-opengl\app_cube_fuel_memory_opengl.vcxproj", "{A2E82D25-EE56-4E4E-91B2-DFA9CA0057B1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_fuel_memory_opengl", "..\source\app-graphics3d\fuel-memory-opengl\app_graphics3d_fuel_memory_opengl.vcxproj", "{A2E82D25-EE56-4E4E-91B2-DFA9CA0057B1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel_memory_opengl", "..\source\app-cube\fuel-memory-opengl\__implement\shared_app_cube_fuel_memory_opengl.vcxproj", "{501BFD29-D625-4079-A608-CD8E6DA2D62E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_fuel_memory_opengl", "..\source\app-graphics3d\fuel-memory-opengl\__implement\shared_app_graphics3d_fuel_memory_opengl.vcxproj", "{501BFD29-D625-4079-A608-CD8E6DA2D62E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_fuel_window_opengl", "..\source\app-cube\fuel-window-opengl\app_cube_fuel_window_opengl.vcxproj", "{21666CA1-767F-4E25-99C2-8EC15991DA53}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_fuel_window_opengl", "..\source\app-graphics3d\fuel-window-opengl\app_graphics3d_fuel_window_opengl.vcxproj", "{21666CA1-767F-4E25-99C2-8EC15991DA53}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel_window_opengl", "..\source\app-cube\fuel-window-opengl\__implement\shared_app_cube_fuel_window_opengl.vcxproj", "{49C407C9-BCB4-41B2-BF8F-25129856A781}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_fuel_window_opengl", "..\source\app-graphics3d\fuel-window-opengl\__implement\shared_app_graphics3d_fuel_window_opengl.vcxproj", "{49C407C9-BCB4-41B2-BF8F-25129856A781}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_vulkan", "..\source\app-cube\draw2d_vulkan\draw2d_vulkan.vcxproj", "{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_vulkan", "..\source\app-graphics3d\draw2d_vulkan\draw2d_vulkan.vcxproj", "{076C9F8E-50E3-4D37-BD53-A2814F9C8C23}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_fuel_memory_vulkan", "..\source\app-cube\fuel-memory-vulkan\app_cube_fuel_memory_vulkan.vcxproj", "{1C1592A5-FFA9-4198-98FE-CDA8335178C6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_fuel_memory_vulkan", "..\source\app-graphics3d\fuel-memory-vulkan\app_graphics3d_fuel_memory_vulkan.vcxproj", "{1C1592A5-FFA9-4198-98FE-CDA8335178C6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel_memory_vulkan", "..\source\app-cube\fuel-memory-vulkan\__implement\shared_app_cube_fuel_memory_vulkan.vcxproj", "{1B5B9916-9085-4FA1-B59C-B9506134A578}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_fuel_memory_vulkan", "..\source\app-graphics3d\fuel-memory-vulkan\__implement\shared_app_graphics3d_fuel_memory_vulkan.vcxproj", "{1B5B9916-9085-4FA1-B59C-B9506134A578}"
 	ProjectSection(ProjectDependencies) = postProject
 		{076C9F8E-50E3-4D37-BD53-A2814F9C8C23} = {076C9F8E-50E3-4D37-BD53-A2814F9C8C23}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpu_vulkan", "..\source\app-cube\gpu_vulkan\gpu_vulkan.vcxproj", "{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpu_vulkan", "..\source\app-graphics3d\gpu_vulkan\gpu_vulkan.vcxproj", "{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_cube_fuel_window_vulkan", "..\source\app-cube\fuel-window-vulkan\app_cube_fuel_window_vulkan.vcxproj", "{E726639F-62F9-4DD8-AF10-05D2DE3B90F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_fuel_window_vulkan", "..\source\app-graphics3d\fuel-window-vulkan\app_graphics3d_fuel_window_vulkan.vcxproj", "{E726639F-62F9-4DD8-AF10-05D2DE3B90F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_cube_fuel_window_vulkan", "..\source\app-cube\fuel-window-vulkan\__implement\shared_app_cube_fuel_window_vulkan.vcxproj", "{4A00D419-8E44-4D58-AE2C-652E3746262A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_fuel_window_vulkan", "..\source\app-graphics3d\fuel-window-vulkan\__implement\shared_app_graphics3d_fuel_window_vulkan.vcxproj", "{4A00D419-8E44-4D58-AE2C-652E3746262A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cube", "..\source\app-cube\cube\cube.vcxproj", "{C5FADCF3-CA08-483D-B5F9-2CE2D2BECCBE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cube", "..\source\app\cube\cube.vcxproj", "{C5FADCF3-CA08-483D-B5F9-2CE2D2BECCBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
