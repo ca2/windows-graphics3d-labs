@@ -1,0 +1,6 @@
+{
+   "files.associations": {
+      "*.ds": "php",
+      "cassert": "cpp"
+   }
+}
