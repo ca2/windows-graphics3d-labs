@@ -118,6 +118,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_direct2d", "..\opera
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "write_text_direct2d", "..\operating_system\operating_system-windows_common\write_text_direct2d\write_text_direct2d.vcxproj", "{CA93DD16-0489-4C02-B69D-21C1D3337515}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "directx11", "..\operating_system\operating_system-windows_common\directx11\directx11.vcxproj", "{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		cover|ARM = cover|ARM
@@ -1754,6 +1756,36 @@ Global
 		{CA93DD16-0489-4C02-B69D-21C1D3337515}.StaticRelease|Win32.Build.0 = StaticRelease|Win32
 		{CA93DD16-0489-4C02-B69D-21C1D3337515}.StaticRelease|x64.ActiveCfg = StaticRelease|x64
 		{CA93DD16-0489-4C02-B69D-21C1D3337515}.StaticRelease|x64.Build.0 = StaticRelease|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|ARM.ActiveCfg = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|ARM.Build.0 = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|Win32.ActiveCfg = Debug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|Win32.Build.0 = Debug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|x64.ActiveCfg = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.cover|x64.Build.0 = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|ARM.ActiveCfg = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|ARM.Build.0 = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|Win32.Build.0 = Debug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|x64.ActiveCfg = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Debug|x64.Build.0 = Debug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|ARM.ActiveCfg = Release|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|ARM.Build.0 = Release|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|Win32.ActiveCfg = Release|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|Win32.Build.0 = Release|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|x64.ActiveCfg = Release|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.Release|x64.Build.0 = Release|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|ARM.ActiveCfg = StaticDebug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|ARM.Build.0 = StaticDebug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|Win32.ActiveCfg = StaticDebug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|Win32.Build.0 = StaticDebug|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|x64.ActiveCfg = StaticDebug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticDebug|x64.Build.0 = StaticDebug|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|ARM.ActiveCfg = StaticRelease|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|ARM.Build.0 = StaticRelease|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|Win32.ActiveCfg = StaticRelease|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|Win32.Build.0 = StaticRelease|Win32
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|x64.ActiveCfg = StaticRelease|x64
+		{C4B37BD9-1DDB-4D98-9740-182ED114CB3A}.StaticRelease|x64.Build.0 = StaticRelease|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
