@@ -81,6 +81,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_graphics3d_landen", "..\source\app-graphics3d\landen\app_graphics3d_landen.vcxproj", "{8A919A36-491D-48A5-9773-5CDB2CA18BB7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_continuum", "..\source\app-graphics3d\continuum\__implement\shared_app_graphics3d_continuum.vcxproj", "{C4990B2E-D2FF-40BD-A858-2AF2581DEA1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14BE1858-637E-4577-A1F3-DAED81D5D9DF} = {14BE1858-637E-4577-A1F3-DAED81D5D9DF}
+		{4709E1F6-A79D-4D63-96CC-CBBC33D07AFA} = {4709E1F6-A79D-4D63-96CC-CBBC33D07AFA}
+		{59FC9234-8643-476F-8E34-040764930335} = {59FC9234-8643-476F-8E34-040764930335}
+		{928E4E5F-E062-43D3-8073-F3826381A2E1} = {928E4E5F-E062-43D3-8073-F3826381A2E1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_landen", "..\source\app-graphics3d\landen\__implement\shared_app_graphics3d_landen.vcxproj", "{12AAF0A8-FDEB-4A6F-99C2-B6D3F2DCCA77}"
 EndProject
