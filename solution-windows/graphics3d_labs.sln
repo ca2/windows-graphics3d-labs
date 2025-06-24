@@ -90,8 +90,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_conti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared_app_graphics3d_landen", "..\source\app-graphics3d\landen\__implement\shared_app_graphics3d_landen.vcxproj", "{12AAF0A8-FDEB-4A6F-99C2-B6D3F2DCCA77}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32_offscreen_vulkan", "..\source\vulkan-graphics3d\win32_offscreen_vulkan\win32_offscreen_vulkan.vcxproj", "{25547749-562D-4398-81ED-65582FB28D52}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpu_vulkan", "..\source\app-graphics3d\gpu_vulkan\gpu_vulkan.vcxproj", "{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_opengl", "..\source\app-graphics3d\draw2d_opengl\draw2d_opengl.vcxproj", "{A6371632-E343-445C-88EE-ED786D5EA47F}"
@@ -1252,36 +1250,6 @@ Global
 		{12AAF0A8-FDEB-4A6F-99C2-B6D3F2DCCA77}.StaticRelease|Win32.Build.0 = Release|Win32
 		{12AAF0A8-FDEB-4A6F-99C2-B6D3F2DCCA77}.StaticRelease|x64.ActiveCfg = Release|x64
 		{12AAF0A8-FDEB-4A6F-99C2-B6D3F2DCCA77}.StaticRelease|x64.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|ARM.ActiveCfg = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|ARM.Build.0 = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|Win32.ActiveCfg = Debug|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|Win32.Build.0 = Debug|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|x64.ActiveCfg = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.cover|x64.Build.0 = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|ARM.ActiveCfg = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|ARM.Build.0 = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|Win32.ActiveCfg = Debug|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|Win32.Build.0 = Debug|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|x64.ActiveCfg = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Debug|x64.Build.0 = Debug|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|ARM.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|ARM.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|Win32.ActiveCfg = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|Win32.Build.0 = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|x64.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.Release|x64.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|ARM.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|ARM.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|Win32.ActiveCfg = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|Win32.Build.0 = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|x64.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticDebug|x64.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|ARM.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|ARM.Build.0 = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|Win32.ActiveCfg = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|Win32.Build.0 = Release|Win32
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|x64.ActiveCfg = Release|x64
-		{25547749-562D-4398-81ED-65582FB28D52}.StaticRelease|x64.Build.0 = Release|x64
 		{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}.cover|ARM.ActiveCfg = Debug|x64
 		{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}.cover|ARM.Build.0 = Debug|x64
 		{27C4F9E2-27E4-41E2-A06C-BCD7462AC33E}.cover|Win32.ActiveCfg = Debug|Win32
