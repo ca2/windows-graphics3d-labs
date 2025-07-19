@@ -42,6 +42,8 @@
     <mapping directory="$PROJECT_DIR$/port/graphics3d/assimp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/assimp/assimp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/glad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/graphics3d/nanovg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/graphics3d/nanovg/nanovg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/tinygltf" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/vkbootstrap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/vkvg" vcs="Git" />
