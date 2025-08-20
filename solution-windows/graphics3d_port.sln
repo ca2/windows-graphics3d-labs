@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinPixEventRuntime_lib", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinPixEventRuntime_desktop", "..\port\graphics3d\PixEvents\WinPixEventRuntime_desktop.vcxproj", "{468DC94E-5587-48E3-812E-2CB1816C71A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyktx", "..\..\..\SceneFoundry\main\port\graphics3d\tinyktx\tinyktx.vcxproj", "{D42EBA4C-4D85-4788-A446-63FA2A39EA83}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyktx", "..\port\graphics3d\tinyktx\tinyktx.vcxproj", "{D42EBA4C-4D85-4788-A446-63FA2A39EA83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
